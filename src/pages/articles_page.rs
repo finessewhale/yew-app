@@ -1,7 +1,8 @@
 use yew::prelude::*;
 use reqwasm::http::Request;
 use crate::layouts::ArticleLayout;
-use crate::components::{Article, ArticlesList};
+use crate::components::ArticlesList;
+use crate::types::Article;
 
 
 #[function_component]

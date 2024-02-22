@@ -1,7 +1,7 @@
 use yew::prelude::*;
 use reqwasm::http::Request;
 use crate::layouts::ArticleLayout;
-use crate::components::Article;
+use crate::types::Article;
 
 #[derive(Properties, PartialEq)]
 pub struct ArticleProperties {

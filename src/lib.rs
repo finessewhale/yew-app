@@ -4,6 +4,7 @@ mod router;
 mod components;
 mod layouts;
 mod pages;
+mod types;
 
 use router::{switch, Route};
 

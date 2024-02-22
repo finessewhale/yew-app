@@ -1,15 +1,8 @@
 use yew::prelude::*;
 use yew_router::prelude::*;
-use serde::Deserialize;
 use crate::router::Route;
+use crate::types::Article;
 
-#[derive(Deserialize, Clone, PartialEq)]
-pub struct Article {
-  pub id: usize,
-  pub title: String,
-  pub content: String,
-  pub published_at: String
-}
 
 #[derive(Properties, PartialEq)]
 pub struct ArticlesListProps {
