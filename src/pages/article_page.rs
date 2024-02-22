@@ -24,7 +24,13 @@ pub fn ArticlePage(ArticleProperties { id }: &ArticleProperties) -> Html {
     use_effect_with((), move |_| {
       let articles = article.clone();
       wasm_bindgen_futures::spawn_local(async move {
-        let data:Article = Request::get(&url).send().await.unwrap().json().await.unwrap();
+        let data:Article = Request::get(&url)
+          .send()
+          .await
+          .unwrap()
+          .json()
+          .await
+          .unwrap();
         articles.set(data);
       });
       || ()

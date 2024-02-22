@@ -15,8 +15,12 @@ pub fn HomePage() -> Html {
         </div>
 
         <div class="flex flex-col text-left text-white mb-6">
-          <h2 class="font-bold text-3xl">{"Maxim Fineskin"}</h2>
-          <p class="font-text">{"Digital Craftsman ( Engineer / Developer / Designer )"}</p>
+          <h2 class="font-bold text-3xl">
+            {"Maxim Fineskin"}
+          </h2>
+          <p class="font-text">
+            {"Digital Craftsman ( Engineer / Developer / Designer )"}
+          </p>
         </div>
 
         <div>
@@ -37,7 +41,9 @@ pub fn HomePage() -> Html {
             {"Bio"}
           </h3>
           <div class="pl-14 -indent-14">
-            <span class="mr-4 font-bold">{"2002"}</span>
+            <span class="mr-4 font-bold">
+              {"2002"}
+            </span>
             {"Born in Odesa, Ukraine."}
           </div>
           <div class="pl-14 -indent-14">
